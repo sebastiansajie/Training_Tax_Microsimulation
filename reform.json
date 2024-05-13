@@ -1,0 +1,29 @@
+{
+  "1": {
+    "selected_item": "ptkp_self",
+    "selected_year": [
+      "2024"
+    ],
+    "selected_value": [
+      "65000000"
+    ]
+  },
+  "2": {
+    "selected_item": "ptkp_marriage",
+    "selected_year": [
+      "2024"
+    ],
+    "selected_value": [
+      "5400000"
+    ]
+  },
+  "3": {
+    "selected_item": "ptkp_dependant",
+    "selected_year": [
+      "2024"
+    ],
+    "selected_value": [
+      "5400000"
+    ]
+  }
+}

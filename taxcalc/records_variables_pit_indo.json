@@ -1,0 +1,908 @@
+{
+    "read": {
+        "NPWP": {
+            "required": true,
+            "type": "int",
+            "desc": "TAXPAYER IDENTIFICATION NUMBER (TIN)",
+            "form": {
+                "2021": "1770 FORM HEADER"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Year": {
+            "type": "int",
+            "desc": "Form Year",
+            "form": {
+                "2021": "1770 form"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JNS_SPT": {
+            "type": "string",
+            "desc": "FORM TYPE: 1770SS/1770S/1770",
+            "form": {
+                "2021": "1770 A.1.1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JNS_SPT_NUM": {
+            "type": "int",
+            "desc": "FORM TYPE: 1770SS/1770S/1770",
+            "form": {
+                "2021": "1770 A.1.1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_DN_DR_USAHA": {
+            "type": "float",
+            "desc": "DOMESTIC NET INCOME FROM BUSINESS ACTIVITIES AND/OR INDEPENDENT PERSONAL SERVICE",
+            "form": {
+                "2021": "1770 A.1.1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_DN_DR_PEKERJAAN": {
+            "type": "float",
+            "desc": "DOMESTIC NET INCOME IN RESPECT OF EMPLOYMENT",
+            "form": {
+                "2021": "1770 A.2.2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_DN_DR_PEKERJAAN_ADJ": {
+            "type": "float",
+            "desc": "JML_PH_NETO_DN_DR_PEKERJAAN updated from JML_PH_NETO for 1770SS",
+            "form": {
+                "2021": "1770 A.2.2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_DN_LAINNYA": {
+            "type": "float",
+            "desc": "OTHER DOMESTIC NET INCOME",
+            "form": {
+                "2021": "1770 A.3.3"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_LN": {
+            "type": "float",
+            "desc": "OFFSHORE NET INCOME",
+            "form": {
+                "2021": "1770 A.4.4"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO": {
+            "type": "float",
+            "desc": "TOTAL NET INCOME",
+            "form": {
+                "2021": "1770 A.4.4"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_ZAKAT": {
+            "type": "float",
+            "desc": "ZAKAT/COMPULSORY RELIGIOUS DONATION",
+            "form": {
+                "2021": "1770 A.6.6"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_ZAKAT_NEW": {
+            "type": "float",
+            "desc": "ZAKAT/COMPULSORY RELIGIOUS DONATION",
+            "form": {
+                "2021": "1770 A.6.6"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_STLH_ZAKAT": {
+            "type": "float",
+            "desc": "ZAKAT/COMPULSORY RELIGIOUS DONATION",
+            "form": {
+                "2021": "1770 A.6.6"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_KOM_RUGI": {
+            "type": "float",
+            "desc": "LOSS CARRY FORWARD",
+            "form": {
+                "2021": "1770 B.8.8"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_KOM_RUGI_NEW": {
+            "type": "float",
+            "desc": "LOSS CARRY FORWARD",
+            "form": {
+                "2021": "1770 B.8.8"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_STLH_KOM_RUGI": {
+            "type": "float",
+            "desc": "LOSS CARRY FORWARD",
+            "form": {
+                "2021": "1770 B.8.8"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "FG_PTKP": {
+            "type": "int",
+            "desc": "PERSONAL EXEMPTIONS MARRIAGE CODE, 0= UNMARRIED, 1= MARRIED",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_TANGGUNGAN": {
+            "type": "int",
+            "desc": "TOTAL DEPENDANT",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_TANGGUNGAN_NEW": {
+            "type": "int",
+            "desc": "TOTAL DEPENDANT",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PTKP": {
+            "type": "float",
+            "desc": "TOTAL DEDUCTION",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PTKP_NEW": {
+            "type": "float",
+            "desc": "TOTAL DEDUCTION",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PKP": {
+            "type": "float",
+            "desc": "TOTAL TAXABLE INCOME",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "JML_PPH_TERUTANG": {
+            "type": "float",
+            "desc": "TOTAL TAX",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "JML_PH_NETO_BUNGA": {
+            "type": "float",
+            "desc": "INTEREST INCOME",
+            "form": {
+                "2021": "1770.I.D.1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_ROYALTI": {
+            "type": "float",
+            "desc": "ROYALTIES INCOME",
+            "form": {
+                "2021": "1770.I.D.2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_SEWA": {
+            "type": "float",
+            "desc": "RENT INCOME",
+            "form": {
+                "2021": "1770.I.D.3"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_HADIAH": {
+            "type": "float",
+            "desc": "AWARDS AND PRIZES",
+            "form": {
+                "2021": "1770.I.D.4"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_PENJUALAN_HARTA": {
+            "type": "float",
+            "desc": "GAIN FROM THE SALE/TRANSFER OF PROPERTY",
+            "form": {
+                "2021": "1770.I.D.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_NETO_LAINNYA": {
+            "type": "float",
+            "desc": "OTHER INCOMES",
+            "form": {
+                "2021": "1770.I.D.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_DISKONTO_SBI": {
+            "type": "float",
+            "desc": "INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+            "form": {
+                "2021": "1770 III A.1 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_DISKONTO_SBI_ADJUSTED": {
+            "type": "float",
+            "desc": "Adjusted because we have very large Values for the Interest Income",
+            "form": {
+                "2021": "1770 III A.1 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "JML_PPH_TERUTANG_DISKONTO_SBI": {
+            "type": "float",
+            "desc": "FINAL TAX ON INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "JML_PH_BRUTO_OBLIGASI": {
+            "type": "float",
+            "desc": "INTEREST/DISCOUNT OF BOND",
+            "form": {
+                "2021": "1770 III A.2 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_PENJUALAN_SAHAM": {
+            "type": "float",
+            "desc": "SALES OF SHARES TRADED IN THE STOCK EXCHANGE",
+            "form": {
+                "2021": "1770 III A.3 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_HADIAH_UNDIAN": {
+            "type": "float",
+            "desc": "LOTTERY PRIZES",
+            "form": {
+                "2021": "1770 III A.4 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_PESANGON": {
+            "type": "float",
+            "desc": "SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM",
+            "form": {
+                "2021": "1770 III A.5 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_HONORARIUM_APBN": {
+            "type": "float",
+            "desc": "HONORARIA DERIVED FROM STATE AND/OR LOCAL BUDGET",
+            "form": {
+                "2021": "1770 III A.6 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_PHTB": {
+            "type": "float",
+            "desc": "TRANSFERS OF RIGHTS ON LAND AND BUILDING",
+            "form": {
+                "2021": "1770 III A.7 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_BANGUN_GUNA_SERAH": {
+            "type": "float",
+            "desc": "PROPERTY RECEIVED FROM BUILD OPERATE TRANSFER SCHEME",
+            "form": {
+                "2021": "1770 III A.8 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_SEWA_TANAH_BANGUNAN": {
+            "type": "float",
+            "desc": "LEASE/RENT ON LAND OR BUILDING 1778 III A.9 (3)",
+            "form": {
+                "2021": "1770 III A.9 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_USAHA_JASKON": {
+            "type": "float",
+            "desc": "CONSTRUCTION FEES",
+            "form": {
+                "2021": "1770 III A.10 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_DEALER_BBM": {
+            "type": "float",
+            "desc": "DISTRIBUTOR/DEALER/AGENTS OF FUEL PRODUCTS",
+            "form": {
+                "2021": "1770 III A.11 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_BUNGA_SIMPANAN_KOPERASI": {
+            "type": "float",
+            "desc": "SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+            "form": {
+                "2021": "1770 III A.12 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_TRANSAKSI_DERIVATIF": {
+            "type": "float",
+            "desc": "INCOME FROM DERIVATIVE TRANSACTION",
+            "form": {
+                "2021": "1770 III A.13 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_DIVIDEN": {
+            "type": "float",
+            "desc": "DIVIDEND",
+            "form": {
+                "2021": "1770 III A.14 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_PH_ISTRI": {
+            "type": "float",
+            "desc": "WIFE INCOME FROM ONE EMPLOYER",
+            "form": {
+                "2021": "1770 III A.15 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PH_BRUTO_LAINNYA": {
+            "type": "float",
+            "desc": "OTHER INCOME SUBJECT TO FINAL TAX AND OR FINAL IN NATURE",
+            "form": {
+                "2021": "1770 III A.16 (3)"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PU": {
+            "type": "float",
+            "desc": "TOTAL TURNOVER UNDER GR 23/2018",
+            "form": {
+                "2021": "1770.G.k"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PROFIT_SB": {
+            "type": "float",
+            "desc": "ESTIMATED PROFIT OF SMALL BUSINESSES (20% MARGIN)",
+            "form": {
+                "2021": "1770.G.k"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PPH_FINAL_DIBYR": {
+            "type": "float",
+            "desc": "FINAL TAX ON TOTAL TURNOVER UNDER GR 23/2018",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "JML_PH_BRUTO_FINAL": {
+            "type": "float",
+            "desc": "TOTAL FINAL INCOME",
+            "form": {
+                "2021": "1770.G.k"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "JML_PPH_TERUTANG_FINAL": {
+            "type": "float",
+            "desc": "TOTAL TAX",
+            "form": {
+                "2017": "1771 B.10"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "TOTAL_INCOME_WITH_FINAL": {
+            "type": "float",
+            "desc": "TOTAL INCOME INCLUDE JML_PH_NETO AND JML_PH_BRUTO_FINAL",
+            "form": {
+                "2021": "1770.G.k"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "weight": {
+            "type": "float",
+            "desc": "Filing unit sampling weight",
+            "form": {
+                "2017": "not used in filing unit tax calculations"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        }
+    },
+    "calc": {
+        "Calculated_Total_Income": {
+            "type": "float",
+            "desc": "Calculated_Total_Income",
+            "form": {
+                "2021": "1770 A.5.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Total_Income_1770SS": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Total_Income_1770S": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Total_Income_1770": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_Zakat_1770SS": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_Zakat_1770S": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_Zakat_1770": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_Zakat": {
+            "type": "float",
+            "desc": "Computed Total Income",
+            "form": {
+                "2021": "1770 A.5"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_LCF": {
+            "type": "float",
+            "desc": "Computed income from Business and Profession)",
+            "form": {
+                "2017": "ITR-3 Part B-TI-3vi"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_LCF_1770SS": {
+            "type": "float",
+            "desc": "Computed income from Business and Profession)",
+            "form": {
+                "2017": "ITR-3 Part B-TI-3vi"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_LCF_1770S": {
+            "type": "float",
+            "desc": "Computed income from Business and Profession)",
+            "form": {
+                "2017": "ITR-3 Part B-TI-3vi"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Income_After_LCF_1770": {
+            "type": "float",
+            "desc": "Computed income from Business and Profession)",
+            "form": {
+                "2017": "ITR-3 Part B-TI-3vi"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Personal_Exemptions": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 15% under current law(Tax_SHORT_TERM_RATE1)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Personal_Exemptions_1770SS": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 15% under current law(Tax_SHORT_TERM_RATE1)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Personal_Exemptions_1770S": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 15% under current law(Tax_SHORT_TERM_RATE1)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Personal_Exemptions_1770": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 15% under current law(Tax_SHORT_TERM_RATE1)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 1"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Taxable_Income": {
+            "type": "float",
+            "desc": "Taxable Income",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Taxable_Income_Behavior": {
+            "type": "float",
+            "desc": "Taxable income adjusted for behavior",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Taxable_Income_1770SS": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 30% under current law (Tax_SHORT_TERM_RATE2)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Taxable_Income_1770S": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 30% under current law (Tax_SHORT_TERM_RATE2)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Taxable_Income_1770": {
+            "type": "float",
+            "desc": "Tax on Short Term Capital Gains at 30% under current law (Tax_SHORT_TERM_RATE2)",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Interest_Saving_Income_Behavior": {
+            "type": "float",
+            "desc": "INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES adjusted for behavior",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_InterestSaving": {
+            "type": "float",
+            "desc": "Final Tax on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Calculated_Interest_Bonds_Income_Behavior": {
+            "type": "float",
+            "desc": "INTEREST/DISCOUNT OF BOND adjusted for behavior",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_InterestBonds": {
+            "type": "float",
+            "desc": "Final Tax on INTEREST/DISCOUNT OF BOND",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_SalesOfStocks": {
+            "type": "float",
+            "desc": "final tax on SALES OF SHARES TRADED IN THE STOCK EXCHANGE",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Lottery": {
+            "type": "float",
+            "desc": "final tax on LOTTERY PRIZES",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_SeverancePayment": {
+            "type": "float",
+            "desc": "final tax on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Honoraria": {
+            "type": "float",
+            "desc": "final tax on HONORARIA DERIVED FROM STATE AND/OR LOCAL BUDGET",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_SalesOfAssets": {
+            "type": "float",
+            "desc": "final tax on TRANSFERS OF RIGHTS ON LAND AND BUILDING",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_PropertyBOT": {
+            "type": "float",
+            "desc": "final tax on PROPERTY RECEIVED FROM BUILD OPERATE TRANSFER SCHEME",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Rent": {
+            "type": "float",
+            "desc": "final tax on LEASE/RENT ON LAND OR BUILDING",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_ConstructionFees": {
+            "type": "float",
+            "desc": "final tax on CONSTRUCTION FEES",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_FuelDealers": {
+            "type": "float",
+            "desc": "final tax on DISTRIBUTOR/DEALER/AGENTS OF FUEL PRODUCTS",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_CooperativeInterest": {
+            "type": "float",
+            "desc": "final tax on SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_DerivativeTransaction": {
+            "type": "float",
+            "desc": "final tax on INCOME FROM DERIVATIVE TRANSACTION",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Dividend": {
+            "type": "float",
+            "desc": "final tax on INCOME FROM DIVIDEND",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_WifeIncome": {
+            "type": "float",
+            "desc": "final tax on WIFE INCOME FROM ONE EMPLOYER",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Other": {
+            "type": "float",
+            "desc": "final tax on OTHER INCOME SUBJECT TO FINAL TAX AND OR FINAL IN NATURE",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "finaltax_Total": {
+            "type": "float",
+            "desc": "Total Final Tax",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "final_incomes_at_marginal_rates": {
+            "type": "float",
+            "desc": "Final incomes added to marginal rates income",
+            "form": {
+                "2017": "ITR-3 Schedule SI line 2"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "op_tax": {
+            "type": "float",
+            "desc": "PIT liability",
+            "form": {
+                "2017": "ITR-1 line D11"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
+        "pitax": {
+            "type": "float",
+            "desc": "PIT + Final Tax liability",
+            "form": {
+                "2017": "ITR-1 line D11"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "pitax_1770SS": {
+            "type": "float",
+            "desc": "PIT liability",
+            "form": {
+                "2017": "ITR-1 line D11"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "pitax_1770S": {
+            "type": "float",
+            "desc": "PIT liability",
+            "form": {
+                "2017": "ITR-1 line D11"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "pitax_1770": {
+            "type": "float",
+            "desc": "PIT liability",
+            "form": {
+                "2017": "ITR-1 line D11"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        }
+
+    }
+}
