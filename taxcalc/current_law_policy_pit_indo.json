@@ -1,0 +1,3801 @@
+{
+    "_rate1": {  
+        "long_name": "PIT tax rate 1", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1": {
+        "long_name": "PIT tax bracket 1 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           60000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2",
+        "out_of_range_action": "stop"
+    },
+    "_rate2": {  
+        "long_name": "PIT tax rate 2", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2": {
+        "long_name": "PIT tax bracket 2 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           250000000
+        ],
+        "range": {
+            "min": "_tbrk1",
+            "max": "_tbrk3"
+        },
+        "out_of_range_minmsg": "for _tbrk1",
+        "out_of_range_maxmsg": "for _tbrk3",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3": {  
+        "long_name": "PIT tax rate 3", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3": {
+        "long_name": "PIT tax bracket 3 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2",
+            "max": "_tbrk4"
+        },
+        "out_of_range_minmsg": "for _tbrk2",
+        "out_of_range_maxmsg": "for _tbrk4",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4": {
+        "long_name": "PIT tax rate 4",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4": {
+        "long_name": "PIT tax bracket 4 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                5000000000
+        ],
+        "range": {
+            "min": "_tbrk3",
+            "max": "_tbrk5"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5": {
+        "long_name": "PIT tax rate 5",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.35
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4",
+            "max": "_tbrk6"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6": {
+        "long_name": "PIT tax rate 6",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6": {
+        "long_name": "PIT tax bracket 6 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_ptkp_self": {
+        "long_name": "ptkp_self",
+        "description": "Personal exemption for the taxpayer himself/herself",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            54000000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_ptkp_marriage": {
+        "long_name": "ptkp_marriage",
+        "description": "Additional personal exemption if taxpayer is married",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            4500000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_ptkp_dependant": {
+        "long_name": "ptkp_dependant",
+        "description": "Additional personal exemption for every dependant",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            4500000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_max_dependant_allowed": {
+        "long_name": "max_dependant_allowed",
+        "description": "maximum number of dependant allowed by the law for exemption",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            3
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_InterestSaving": {
+        "long_name": "rate1_InterestBank",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate2_InterestSaving": {
+        "long_name": "rate2_InterestBank",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.2
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_InterestSaving": {
+        "long_name": "rate3_InterestBank",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.2
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_InterestSaving": {
+        "long_name": "_tbrk1_InterestSaving",
+        "description": "Interest Saving Income below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                7500000 
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2_InterestSaving"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk2_InterestSaving": {
+        "long_name": "_tbrk2_InterestSaving)",
+        "description": "Interest Saving Income below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                5e+99 
+        ],
+        "range": {
+            "min": "_tbrk1_InterestSaving",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_InterestBonds": {
+        "long_name": "_rate_InterestBonds",
+        "description": "final tax rate on INTEREST/DISCOUNT OF BOND",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_SalesOfStocks": {
+        "long_name": "_rate_SaleOfStocks",
+        "description": "final tax rate on SALES OF SHARES TRADED IN THE STOCK EXCHANGE",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.001
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Lottery": {
+        "long_name": "_rate_Lottery",
+        "description": "final tax rate on LOTTERY PRIZES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_SeverancePayment": {
+        "long_name": "_rate1_SeverancePayment",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM up to 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_SeverancePayment": {
+        "long_name": "_tbrk1_SeverancePayment",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_SeverancePayment": {
+        "long_name": "_rate2_SeverancePayment",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM over 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_Pension": {
+        "long_name": "_rate1_Pension",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM up to 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_Pension": {
+        "long_name": "_tbrk1_Pension",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2_Pension"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2_Pension",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_Pension": {
+        "long_name": "_rate2_Pension",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 50 millions and less than or equal to 100 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk2_Pension": {
+        "long_name": "_tbrk2_Pension",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           100000000
+        ],
+        "range": {
+            "min": "_tbrk1_Pension",
+            "max": "_tbrk3_Pension"
+        },
+        "out_of_range_minmsg": "for _tbrk1_Pension",
+        "out_of_range_maxmsg": "for _tbrk3_Pension",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_Pension": {
+        "long_name": "_rate3_Pension",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 100 millions and less than or equal to 500 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3_Pension": {
+        "long_name": "_tbrk3_Pension",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2_Pension",
+            "max": "_tbrk4_Pension"
+        },
+        "out_of_range_minmsg": "for _tbrk2_Pension",
+        "out_of_range_maxmsg": "for _tbrk4_Pension",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4_Pension": {
+        "long_name": "_rate4_Pension",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 500 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4_Pension": {
+        "long_name": "_tbrk4_Pension",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                2e+99
+        ],
+        "range": {
+            "min": "_tbrk3_Pension",
+            "max": "_tbrk5_Pension"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5_Pension": {
+        "long_name": "_rate5_Pension",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5_Pension": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4_Pension",
+            "max": "_tbrk6_Pension"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6_Pension": {
+        "long_name": "PIT tax rate 6",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6_Pension": {
+        "long_name": "PIT tax bracket 6 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5_Pension",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Honoraria": {
+        "long_name": "_rate_Honoraria",
+        "description": "final tax rate on HONORARIA DERIVED FROM STATE AND/OR LOCAL BUDGET",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_SalesOfAssets": {
+        "long_name": "_rate_SaleOfAssets",
+        "description": "final tax rate on TRANSFERS OF RIGHTS ON LAND AND BUILDING",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_PropertyBOT": {
+        "long_name": "_rate_PropertyBOT",
+        "description": "final tax rate on PROPERTY RECEIVED FROM BUILD OPERATE TRANSFER SCHEME",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Rent": {
+        "long_name": "_rate_Rent",
+        "description": "final tax rate on LEASE/RENT ON LAND OR BUILDING",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_ConstructionFees": {
+        "long_name": "_rate_ConstructionFees",
+        "description": "final tax rate on CONSTRUCTION FEES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.02
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_FuelDealers": {
+        "long_name": "_rate_FuelDealers",
+        "description": "final tax rate on DISTRIBUTOR/DEALER/AGENTS OF FUEL PRODUCTS",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.0025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_CooperativeInterest": {
+        "long_name": "_rate1_CooperativeInterest",
+        "description": "final tax rate on SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_CooperativeInterest": {
+        "long_name": "_tbrk1_CooperativeInterest",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           240000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_CooperativeInterest": {
+        "long_name": "_rate2_CooperativeInterest",
+        "description": "final tax rate on SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_DerivativeTransaction": {
+        "long_name": "_rate_DerivativeTransaction",
+        "description": "final tax rate on INCOME FROM DERIVATIVE TRANSACTION",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Dividend": {
+        "long_name": "_rate_Dividend",
+        "description": "final tax rate on DIVIDEND",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_WifeIncome": {  
+        "long_name": "_rate1_WifeIncome", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_WifeIncome": {
+        "long_name": "PIT tax bracket 1 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "tbrk2_WifeIncome"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2_WifeIncome",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_WifeIncome": {  
+        "long_name": "PIT tax rate 2", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2_WifeIncome": {
+        "long_name": "PIT tax bracket 2 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           250000000
+        ],
+        "range": {
+            "min": "_tbrk1_WifeIncome",
+            "max": "_tbrk3_WifeIncome"
+        },
+        "out_of_range_minmsg": "for _tbrk1_WifeIncome",
+        "out_of_range_maxmsg": "for _tbrk3_WifeIncome",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_WifeIncome": {  
+        "long_name": "PIT tax rate 3", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3_WifeIncome": {
+        "long_name": "PIT tax bracket 3 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2_WifeIncome",
+            "max": "_tbrk4_WifeIncome"
+        },
+        "out_of_range_minmsg": "for _tbrk2_WifeIncome",
+        "out_of_range_maxmsg": "for _tbrk4_WifeIncome",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4_WifeIncome": {
+        "long_name": "PIT tax rate 4",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4_WifeIncome": {
+        "long_name": "PIT tax bracket 4 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                2e+99
+        ],
+        "range": {
+            "min": "_tbrk3_WifeIncome",
+            "max": "_tbrk5_WifeIncome"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5_WifeIncome": {
+        "long_name": "PIT tax rate 5",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5_WifeIncome": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4_WifeIncome",
+            "max": "_tbrk6_WifeIncome"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6_WifeIncome": {
+        "long_name": "PIT tax rate 6",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6_WifeIncome": {
+        "long_name": "PIT tax bracket 6 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5_WifeIncome",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_FinalOther": {
+        "long_name": "_rate_FinalOther",
+        "description": "final tax rate on OTHER INCOME SUBJECT TO FINAL TAX AND OR FINAL IN NATURE",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.005
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_threshold_Turnover": {
+        "long_name": "_threshold_Turnover)",
+        "description": "Small Business Turnover below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021", "2022"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0, 500000000 
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_curr_law": {  
+        "long_name": "PIT tax rate 1", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_curr_law": {
+        "long_name": "PIT tax bracket 1 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           60000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_curr_law": {  
+        "long_name": "PIT tax rate 2", 
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2_curr_law": {
+        "long_name": "PIT tax bracket 2 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 2.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           250000000
+        ],
+        "range": {
+            "min": "_tbrk1",
+            "max": "_tbrk3"
+        },
+        "out_of_range_minmsg": "for _tbrk1",
+        "out_of_range_maxmsg": "for _tbrk3",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_curr_law": {  
+        "long_name": "PIT tax rate 3", 
+        "description": "The third lowest tax rate, applied to the portion of taxable income below tax bracket 3 and above tax bracket 2.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3_curr_law": {
+        "long_name": "PIT tax bracket 3 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2",
+            "max": "9e+99"
+        },
+        "out_of_range_minmsg": "for _tbrk2",
+        "out_of_range_maxmsg": "for _tbrk4",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4_curr_law": {
+        "long_name": "PIT tax rate 4",
+        "description": "The highest tax rate, applied to the portion of taxable income above tax bracket 3.",
+        "itr_ref": "Law 36/2008",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4_curr_law": {
+        "long_name": "PIT tax bracket 4 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                5000000000
+        ],
+        "range": {
+            "min": "_tbrk3",
+            "max": "_tbrk5"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+
+    "_rate5_curr_law": {
+        "long_name": "PIT tax rate 5",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.35
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5_curr_law": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4",
+            "max": "_tbrk6"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6_curr_law": {
+        "long_name": "PIT tax rate 2",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6_curr_law": {
+        "long_name": "PIT tax bracket 2 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_ptkp_self_curr_law": {
+        "long_name": "ptkp_self",
+        "description": "Personal exemption for the taxpayer himself/herself",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            54000000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_ptkp_marriage_curr_law": {
+        "long_name": "ptkp_marriage",
+        "description": "Additional personal exemption if taxpayer is married",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            4500000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_ptkp_dependant_curr_law": {
+        "long_name": "ptkp_dependant",
+        "description": "Additional personal exemption for every dependant",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            4500000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },	
+    "_max_dependant_allowed_curr_law": {
+        "long_name": "max_dependant_allowed",
+        "description": "maximum number of dependant allowed by the law for exemption",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            3
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+
+    },
+    "_rate1_InterestSaving_curr_law": {
+        "long_name": "rate2_InterestSaving_curr_law",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate2_InterestSaving_curr_law": {
+        "long_name": "rate2_InterestSaving_curr_law",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.20
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_InterestSaving_curr_law": {
+        "long_name": "rate2_InterestSaving_curr_law",
+        "description": "final tax rate on INTEREST OF DEPOSIT, SAVINGS, DISCOUNT ON BANK INDONESIA CERTIFICATES, STATE SECURITIES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.20
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_InterestSaving_curr_law": {
+        "long_name": "_tbrk1_InterestSaving_curr_law)",
+        "description": "Interest Saving Income below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                7500000 
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2_InterestSaving_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk2_InterestSaving_curr_law": {
+        "long_name": "_tbrk2_InterestSaving_curr_law)",
+        "description": "Interest Saving Income below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                5e+99 
+        ],
+        "range": {
+            "min": "_tbrk1_InterestSaving_curr_law",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_InterestBonds_curr_law": {
+        "long_name": "_rate_InterestBonds_curr_law",
+        "description": "final tax rate on INTEREST/DISCOUNT OF BOND",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_SalesOfStocks_curr_law": {
+        "long_name": "_rate_SaleOfStocks_curr_law",
+        "description": "final tax rate on SALES OF SHARES TRADED IN THE STOCK EXCHANGE",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Lottery_curr_law": {
+        "long_name": "_rate_Lottery_curr_law",
+        "description": "final tax rate on LOTTERY PRIZES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_SeverancePayment_curr_law": {
+        "long_name": "_rate1_SeverancePayment_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM up to 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_SeverancePayment_curr_law": {
+        "long_name": "_tbrk1_SeverancePayment_curr_law",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_SeverancePayment_curr_law": {
+        "long_name": "_rate2_SeverancePayment_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM over 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_Pension_curr_law": {
+        "long_name": "_rate1_Pension_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM up to 50 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_Pension_curr_law": {
+        "long_name": "_tbrk1_Pension_curr_law",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2_Pension_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2_Pension_curr_law",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_Pension_curr_law": {
+        "long_name": "_rate2_Pension_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 50 millions and less than or equal to 100 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk2_Pension_curr_law": {
+        "long_name": "_tbrk2_Pension_curr_law",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           100000000
+        ],
+        "range": {
+            "min": "_tbrk1_Pension_curr_law",
+            "max": "_tbrk3_Pension_curr_law"
+        },
+        "out_of_range_minmsg": "for _tbrk1_Pension_curr_law",
+        "out_of_range_maxmsg": "for _tbrk3_Pension_curr_law",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_Pension_curr_law": {
+        "long_name": "_rate3_Pension_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 100 millions and less than or equal to 500 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3_Pension_curr_law": {
+        "long_name": "_tbrk3_Pension_curr_law",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2_Pension_curr_law",
+            "max": "_tbrk4_Pension_curr_law"
+        },
+        "out_of_range_minmsg": "for _tbrk2_Pension_curr_law",
+        "out_of_range_maxmsg": "for _tbrk4_Pension_curr_law",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4_Pension_curr_law": {
+        "long_name": "_rate4_Pension_curr_law",
+        "description": "final tax rate on SEVERANCE PAYMENT, RETIREMENT ALLOWANCE AND PENSIONS PAID IN LUMP SUM of more than 500 millions",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4_Pension_curr_law": {
+        "long_name": "_tbrk4_Pension_curr_law",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                2e+99
+        ],
+        "range": {
+            "min": "_tbrk3_Pension_curr_law",
+            "max": "_tbrk5_Pension_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5_Pension_curr_law": {
+        "long_name": "_rate5_Pension_curr_law",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5_Pension_curr_law": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4_Pension_curr_law",
+            "max": "_tbrk6_Pension_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6_Pension_curr_law": {
+        "long_name": "PIT tax rate 6",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6_Pension_curr_law": {
+        "long_name": "PIT tax bracket 6 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5_Pension_curr_law",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Honoraria_curr_law": {
+        "long_name": "_rate_Honoraria_curr_law",
+        "description": "final tax rate on HONORARIA DERIVED FROM STATE AND/OR LOCAL BUDGET",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_SalesOfAssets_curr_law": {
+        "long_name": "_rate_SaleOfAssets_curr_law",
+        "description": "final tax rate on TRANSFERS OF RIGHTS ON LAND AND BUILDING",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_PropertyBOT_curr_law": {
+        "long_name": "_rate_PropertyBOT_curr_law",
+        "description": "final tax rate on PROPERTY RECEIVED FROM BUILD OPERATE TRANSFER SCHEME",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Rent_curr_law": {
+        "long_name": "_rate_Rent_curr_law",
+        "description": "final tax rate on LEASE/RENT ON LAND OR BUILDING",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_ConstructionFees_curr_law": {
+        "long_name": "_rate_ConstructionFees_curr_law",
+        "description": "final tax rate on CONSTRUCTION FEES",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.02
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_FuelDealers_curr_law": {
+        "long_name": "_rate_FuelProducts_curr_law",
+        "description": "final tax rate on DISTRIBUTOR/DEALER/AGENTS OF FUEL PRODUCTS",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.0025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_CooperativeInterest_curr_law": {
+        "long_name": "_rate1_CooperativeInterest_curr_law",
+        "description": "final tax rate on SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.00
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_CooperativeInterest_curr_law": {
+        "long_name": "_tbrk1_CooperativeInterest_curr_law",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           240000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_CooperativeInterest_curr_law": {
+        "long_name": "_rate2_CooperativeInterest_curr_law",
+        "description": "final tax rate on SAVING INTEREST PAID BY COOPERATIVE TO ITS INDIVIDUAL MEMBER",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_DerivativeTransaction_curr_law": {
+        "long_name": "_rate_DerivativeTransaction_curr_law",
+        "description": "final tax rate on INCOME FROM DERIVATIVE TRANSACTION",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.025
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_Dividend_curr_law": {
+        "long_name": "_rate_Dividend_curr_law",
+        "description": "final tax rate on DIVIDEND",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate1_WifeIncome_curr_law": {  
+        "long_name": "_rate1_WifeIncome_curr_law", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.05
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk1_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 1 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           50000000
+        ],
+        "range": {
+            "min": 0,
+            "max": "_tbrk2_WifeIncome_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "for _tbrk2_WifeIncome_curr_law",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_WifeIncome_curr_law": {  
+        "long_name": "PIT tax rate 2", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.15
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 2 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           250000000
+        ],
+        "range": {
+            "min": "_tbrk1_WifeIncome_curr_law",
+            "max": "_tbrk3_WifeIncome_curr_law"
+        },
+        "out_of_range_minmsg": "for _tbrk1_WifeIncome_curr_law",
+        "out_of_range_maxmsg": "for _tbrk3_WifeIncome_curr_law",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate3_WifeIncome_curr_law": {  
+        "long_name": "PIT tax rate 3", 
+        "description": "The lowest tax rate, applied to the portion of taxable income below tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",    
+        "row_label": [  
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1 
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk3_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 3 (upper threshold)",
+        "description": "Taxable income below this threshold is taxed at tax rate 3.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+           500000000
+        ],
+        "range": {
+            "min": "_tbrk2_WifeIncome_curr_law",
+            "max": "_tbrk4_WifeIncome_curr_law"
+        },
+        "out_of_range_minmsg": "for _tbrk2_WifeIncome_curr_law",
+        "out_of_range_maxmsg": "for _tbrk4_WifeIncome_curr_law",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate4_WifeIncome_curr_law": {
+        "long_name": "PIT tax rate 4",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk4_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 4 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                2e+99
+        ],
+        "range": {
+            "min": "_tbrk3_WifeIncome_curr_law",
+            "max": "_tbrk5_WifeIncome_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5_WifeIncome_curr_law": {
+        "long_name": "PIT tax rate 5",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk5_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 5 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                3e+99
+        ],
+        "range": {
+            "min": "_tbrk4_WifeIncome_curr_law",
+            "max": "_tbrk6_WifeIncome_curr_law"
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate6_WifeIncome_curr_law": {
+        "long_name": "PIT tax rate 6",
+        "description": "The second lowest tax rate, applied to the portion of taxable income below tax bracket 2 and above tax bracket 1.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.30
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_tbrk6_WifeIncome_curr_law": {
+        "long_name": "PIT tax bracket 6 (upper threshold)",
+        "description": "Income below this threshold and above tax bracket 1 is taxed at tax rate 2.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                9e+99 
+        ],
+        "range": {
+            "min": "_tbrk5_WifeIncome_curr_law",
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_rate_FinalOther_curr_law": {
+        "long_name": "_rate_FinalOther_curr_law",
+        "description": "final tax rate on OTHER INCOME SUBJECT TO FINAL TAX AND OR FINAL IN NATURE",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.005
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_threshold_Turnover_curr_law": {
+        "long_name": "_threshold_Turnover_curr_law)",
+        "description": "Small Business Turnover below this threshold is not taxed.",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021", "2022"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0, 500000000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+        
+    },
+    "_cit_rate": {
+        "long_name": "rate at which corporates are taxed",
+        "description": "Corporate Tax rate",
+        "itr_ref": "Schedule 1 Finance Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.25
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_gst_rate": {
+        "long_name": "GST Benchmark Rate",
+        "description": "GST Benchmark Rate to calculate Policy Gap",
+        "itr_ref": "Benchmark Rate",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            0.10
+        ],
+        "range": {
+            "min": 0,
+            "max": 1
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_taxable_income_threshold": {
+        "long_name": "Threshold for Elasticity of Taxable Income",
+        "description": "elasticity",
+        "itr_ref": "elasticity",
+        "notes": "",
+        "row_var": "Tax_year",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            [
+                100000,
+                1000000,
+                9e99
+            ]
+      ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_taxable_income_value": {
+        "long_name": "Elasticity of Taxable Income",
+        "description": "elasticity",
+        "itr_ref": "elasticity",
+        "notes": "",
+        "row_var": "Tax_year",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "Profit",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            [
+                0.0,
+                0.0,
+                0.0
+                ]
+      ],
+        "range": {
+            "min": -9e99,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_capital_income_threshold": {
+        "long_name": "Threshold for Elasticity of Capital Income",
+        "description": "elasticity",
+        "itr_ref": "elasticity",
+        "notes": "",
+        "row_var": "Tax_year",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            [
+                100000,
+                1000000,
+                9e99
+            ]
+      ],
+        "range": {
+            "min": 0,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_capital_income_value": {
+        "long_name": "Elasticity of Capital Income",
+        "description": "elasticity",
+        "itr_ref": "elasticity",
+        "notes": "",
+        "row_var": "Tax_year",
+        "row_label": [
+            "2021"
+        ],
+        "start_year": 2021,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "Profit",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+            [
+                0.0,
+                0.0,
+                0.0
+                ]
+      ],
+        "range": {
+            "min": -9e99,
+            "max": 9e99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    }             
+}

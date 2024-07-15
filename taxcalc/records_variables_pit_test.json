@@ -1,0 +1,96 @@
+{
+  "read": {
+    "id_n": {
+      "required": true,
+      "type": "int",
+      "desc": "Taxpayer Identification Number (TIN) Unique positive numeric identifier for filing unit",
+      "form": {"2018/2019": "ASMT_IIT_001_E"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "Year": {
+      "required": true,
+      "type": "int",
+      "desc": "Assessment year of ITR form that include prior year information",
+      "form": {"2018/19": "ASMT_IIT_001_E"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "EmpIncCages10": {
+      "type": "float",
+      "desc": "Income from Salary Cage 10",
+      "form": {"2017": "ITR-3 Part B-TI-1"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "BussIncCages20": {
+      "type": "float",
+      "desc": "Income from Business Cage 20",
+      "form": {"2017": "ITR-3 Part B-TI-2"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "InvestIncomeCages30": {
+      "type": "float",
+      "desc": "Investment Income Cage 30",
+      "form": {"2017": "ITR-3 Part B-TI-3i"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "OtherIncomeCages40": {
+      "type": "float",
+      "desc": "Other Income Cage 40",
+      "form": {"2017": "ITR-3 Part B-TI-3ii"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "weight": {
+      "type": "float",
+      "desc": "Filing unit sampling weight",
+      "form": {"2017": "not used in filing unit tax calculations"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    }
+  },
+  "calc": {
+    "Calculated_Assessible_Income": {
+      "type": "float",
+      "desc": "Computed Assessible Income - Similar to Cage 50",
+      "form": {"2017": "ITR-3 Part B-TI-1"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "Calculated_Total_Deductions": {
+      "type": "float",
+      "desc": "Computed Assessible Income - Similar to Cage 50",
+      "form": {"2017": "ITR-3 Part B-TI-1"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "Calculated_Taxable_Income": {
+      "type": "float",
+      "desc": "Computed Assessible Income - Similar to Cage 50",
+      "form": {"2017": "ITR-3 Part B-TI-1"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    },
+    "pitax": {
+      "type": "float",
+      "desc": "PIT liability",
+      "form": {"2017": "ITR-1 line D11"
+      },
+            "cross_year": "No",
+            "attribute": "No"
+    }
+  }
+}
